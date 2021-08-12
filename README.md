@@ -4,11 +4,9 @@ Download The App - [Financial Calculator App](https://github.com/siddhanth0412/f
 
 # Abstract
 
-The aim of this project is to create an app that a user can use to carry out calculations on a daily basis. A user can have access to various calculators that are inbuilt in this application and are as follows :- Income Tax Calculation, EMI Calculation and Electricity Bill Calculation.
-
-EMI, acronym for Equated Monthly Installment, plays a very crucial role in getting a home loan. It is the amount a customer pays every month to the bank or any other financial institution. This amount is borne by the customer till the time the loan amount is not completely paid off.  
-
-Every person needs these types of calculators at some point of their lives, and we bring all of it in one single application. All users have to do is to select a desired calculator among the three and calculate it for their personal use.
+- The aim of this project is to create an app that a user can use to carry out calculations on a daily basis. A user can have access to various calculators that are inbuilt in this application and are as follows :- Income Tax Calculation, EMI Calculation and Electricity Bill Calculation.
+- EMI, acronym for Equated Monthly Installment, plays a very crucial role in getting a home loan. It is the amount a customer pays every month to the bank or any other financial institution. This amount is borne by the customer till the time the loan amount is not completely paid off.  
+- Every person needs these types of calculators at some point of their lives, and we bring all of it in one single application. All users have to do is to select a desired calculator among the three and calculate it for their personal use.
 
 # Introduction
 
