@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/f1"
+    tools:context=".IncomeActivity">
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:labelFor="@id/edit1"
+
+        app:layout_constraintBaseline_toBaselineOf="@+id/text1"
+        app:layout_constraintStart_toEndOf="@+id/text1"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:text="Enter your Income:"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/edit1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="19dp"
+
+        android:layout_marginEnd="10dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submitButton" />
+
+    <com.spark.submitbutton.SubmitButton
+
+        android:id="@+id/submitButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Submit"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        app:sub_btn_background="@color/black"
+        app:sub_btn_duration="8000"
+        app:sub_btn_line_color="#31ce5a"
+        app:sub_btn_ripple_color="#c93a36"
+        app:sub_btn_tick_color="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="417dp"
+        android:layout_height="82dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="INCOME TAX CALCULATION"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="29dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

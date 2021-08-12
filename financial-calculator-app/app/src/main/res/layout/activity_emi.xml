@@ -1,0 +1,114 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f2"
+    tools:context=".EMIActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="136dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-3dp">
+
+        <EditText
+            android:id="@+id/principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789."
+            android:hint="@string/hint_principal"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textStyle="bold"
+
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/interest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789."
+            android:hint="@string/hint_interest"
+            android:inputType="number"
+
+            android:singleLine="true"
+            android:textStyle="bold"
+
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/years"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789."
+            android:hint="@string/hint_years"
+            android:inputType="number"
+
+            android:textStyle="bold"
+            tools:ignore="Autofill" />
+
+        <com.spark.submitbutton.SubmitButton
+
+            android:id="@+id/submitButton"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Submit"
+            android:textColor="@color/black"
+            app:sub_btn_background="#25da59"
+
+            app:sub_btn_duration="8000"
+            app:sub_btn_line_color="@color/black"
+            app:sub_btn_ripple_color="#c93a36"
+            app:sub_btn_tick_color="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/emi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_emi"
+            android:inputType="number"
+            android:maxEms="0"
+            android:textStyle="bold"
+            tools:ignore="Autofill"
+            android:textColor="@color/white"/>
+
+        <EditText
+
+            android:id="@+id/interest_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_interest_total"
+            android:inputType="number"
+            android:textStyle="bold"
+            tools:ignore="Autofill"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="417dp"
+        android:layout_height="82dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="EMI CALCULATION"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="29dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
